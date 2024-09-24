@@ -17,16 +17,16 @@
     ],
     "modules-right": [
         "mpd",
-        "idle_inhibitor",
+//        "idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
         "cpu",
         "memory",
-        "temperature",
+//        "temperature",
         "backlight",
         "keyboard-state",
-        "sway/language",
+// "hyprland/language",
         "battery",
         "battery#bat2",
         "clock",
@@ -99,13 +99,13 @@
         "tooltip-format": "MPD (connected)",
         "tooltip-format-disconnected": "MPD (disconnected)"
     },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
-    },
+//    "idle_inhibitor": {
+//        "format": "{icon}",
+//        "format-icons": {
+//            "activated": "",
+//            "deactivated": ""
+//        }
+//    },
     "tray": {
         // "icon-size": 21,
         "spacing": 10
