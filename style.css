@@ -1,8 +1,9 @@
 * {
     border: none;
-    font-family: Font Awesome, Roboto, Arial, sans-serif;
-    font-size: 13px;
+    font-family: CaskaydiaMono Nerd Font, Font Awesome, Roboto, Arial, sans-serif;
+    font-size: 12px;
     color: #ffffff;
+    padding: 0 5px 0 5px;
     border-radius: 20px;
 }
 
@@ -64,6 +65,7 @@ window#waybar {
     margin: 5px 5px;
     padding: 1px 1px 1px 6px;
 }
+
 /*-----Indicators----*/
 #idle_inhibitor.activated {
     color: #2dcc36;
