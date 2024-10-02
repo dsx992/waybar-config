@@ -13,7 +13,8 @@
         "custom/media"
     ],
     "modules-center": [
-        "hyprland/window"
+//        "hyprland/window"
+        "clock",
     ],
     "modules-right": [
         "mpd",
@@ -29,7 +30,7 @@
 // "hyprland/language",
         "battery",
         "battery#bat2",
-        "clock",
+//         "clock",
         "tray",
         "custom/power"
     ],
@@ -112,8 +113,9 @@
     },
     "clock": {
         // "timezone": "America/New_York",
+        "format": "{:%H.%M <small>%d-%m</small>}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        // "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
         "format": "{usage}% ",
